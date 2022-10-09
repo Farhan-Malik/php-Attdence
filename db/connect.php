@@ -1,9 +1,18 @@
-<?php 
-   $host = 'localhost';
-   $db = 'Registration_db';
-   $user = 'root';
-   $pass = '';
+<?php
+   //Devlopment Connection
+   //$host = 'localhost';
+   //$db = 'Registration_db';
+   //$user = 'root';
+   //$pass = '';
+   //$charset = 'utf8mb4';
+
+   //Remote Database connection
+   $host = 'sql6.freemysqlhosting.net';
+   $db = 'sql6525343';
+   $user = 'sql6525343';
+   $pass = 'JMev7Uv1KR';
    $charset = 'utf8mb4';
+
 
    $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
    
