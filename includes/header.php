@@ -28,12 +28,12 @@ include_once 'includes/session.php'
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <div class="navbar-nav mr-auto">
-            <a class="nav-item nav-link active" href="index.php">Home <span class="sr-only"> </span></a>
+            <a class="nav-item nav-link" href="index.php">Home <span class="sr-only"> </span></a>
             <a class="nav-item nav-link" href="viewrecords.php"> View Attendees </a>
           </div>
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link active" href="login.php">Login <span class="sr-only"> </span></a>
+              <a class="nav-item nav-link"  href="login.php">Login <span class="sr-only"> </span></a>
             </div>
           </div>
     </nav>
