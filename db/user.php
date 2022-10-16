@@ -1,5 +1,5 @@
 <?php
-class crud
+class user
 {
     private $db;
 
@@ -33,7 +33,7 @@ class crud
         }
     }
 
-    public function getUser($username, $password)
+    public function getUser($username,$password)
     {
 
         try {
