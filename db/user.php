@@ -8,7 +8,7 @@ class user
         $this->db = $connect;
     }
 
-    public function insertUser($username, $password)
+    public function insertUser($username,$password)
     {
         try {
             $result = $this->getUserbyUsername($username);

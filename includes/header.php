@@ -33,8 +33,18 @@ include_once 'includes/session.php'
           </div>
           <div class="collapse navbar-collapse" id="navbarNav">
             <div class="navbar-nav ml-auto">
-              <a class="nav-item nav-link"  href="login.php">Login <span class="sr-only"> </span></a>
+              <?php
+              if (!isset($_SESSION['userid'])) {
+
+              ?>
+
+                <a class="nav-item nav-link" href="login.php">Login <span class="sr-only"> </span></a>
+              <?php } else { ?>
+                <span>Hello <?php echo $_SESSION['username'] ?> </span>
+                <a class="nav-item nav-link" href="login.php">Logout <span class="sr-only"> </span></a>
+
+              <?php } ?>
             </div>
           </div>
     </nav>
-    <br/>
+    <br />

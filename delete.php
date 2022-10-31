@@ -1,4 +1,5 @@
 <?php 
+  require_once 'includes/auth_check.php';
   require_once 'db/connect.php';
   if(!$_GET['id']){
     include 'includes/errormessage.php';
